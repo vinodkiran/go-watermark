@@ -1,0 +1,14 @@
+
+GET http://localhost:8081/healthz
+
+###
+GET http://localhost:8081/get
+Content-Type: application/json
+
+###
+POST http://localhost:8081/status
+Content-Type: application/json
+
+{
+  "ticketID": "SAMPLE"
+}
